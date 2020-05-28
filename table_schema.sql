@@ -1,0 +1,18 @@
+DROP TABLE IF EXISTS Obesity;
+DROP TABLE IF EXISTS GDP;
+
+CREATE TABLE Obesity (
+	id INT PRIMARY KEY
+	,country VARCHAR NOT NULL
+	,year INT NOT NULL
+	,obesity_percent FLOAT
+	,sex VARCHAR
+);
+
+CREATE TABLE GDP (
+	id INT PRIMARY KEY
+	,country VARCHAR NOT NULL
+	,year INT NOT NULL
+	,country_code VARCHAR(3)
+	,gdp FLOAT
+);
