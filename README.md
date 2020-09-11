@@ -4,30 +4,26 @@ ETL group project
 
 ## Data Cleanup & Analysis
 
-Once you have identified your datasets, perform ETL on the data. Make sure to plan and document the following:
 
-* The sources of data that you will extract from.
+* The sources of data extracted:
 
-- extracted data from:
+
 https://www.kaggle.com/amanarora/obesity-among-adults-by-country-19752016
 https://data.world/moosechris/gdp-1960-to-2015
 
 * The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
 clean null values
 clean data in rows so it's more readable (drop error measures from obesity percentage)
-Rename to United States so joining works properly
+Rename countrie so joining works properly
 
-* The type of final production database to load the data into (relational or non-relational).
+* Load the data into a relational database -- PostgreSQL
 
-relational -- PostgreSQL
+* The final tables or collections that will be used in the production database:
 
-* The final tables or collections that will be used in the production database.
-
-2 tables:
 Obesity table
 GDP table 
 
-You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.
+
 
 ## Project Report
 
